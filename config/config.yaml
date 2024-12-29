@@ -1,0 +1,16 @@
+# This is an example configuration file for the ExampleApp.
+log:
+  log_level: 'logging.INFO'
+  tz_timedelta: 8
+
+app:
+  app_name: 'ExampleApp'
+  master: 'local[*]'
+
+path:
+  input_dir: 'data/input'
+  output_dir: 'data/output'
+
+file:
+  input_file: 'data.csv'
+  output_file: 'output.csv'
